@@ -221,7 +221,7 @@ export default function App() {
               {/* 메인 단어 */}
               <div style={{
                 fontFamily: SERIF,
-                fontSize: "clamp(30px,8.5vw,40px)",
+                fontSize: "clamp(30px,8.5vw,38px)",
                 fontWeight: 700,
                 color: cat.accent,
                 letterSpacing: "-0.01em",
