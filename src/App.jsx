@@ -172,7 +172,7 @@ export default function App() {
       <div style={{ position: "absolute", inset: 0, background: "radial-gradient(ellipse 70% 50% at 15% 15%,rgba(255,220,160,0.22) 0%,transparent 55%),radial-gradient(ellipse 60% 70% at 90% 85%,rgba(180,200,230,0.18) 0%,transparent 55%)", pointerEvents: "none" }} />
 
       {/* 로고 */}
-      <div style={{ position: "absolute", top: 24, fontSize: 13, fontWeight: 600, letterSpacing: "0.28em", color: "rgba(40,30,20,0.42)", fontFamily: SERIF, zIndex: 10 }}>말의 정원</div>
+      <div style={{ position: "absolute", top: 40, fontSize: 13, fontWeight: 600, letterSpacing: "0.28em", color: "rgba(40,30,20,0.42)", fontFamily: SERIF, zIndex: 10 }}>말의 정원</div>
 
       {/* 전체화면 터치 */}
       <div onTouchStart={onTS} onTouchMove={onTM} onTouchEnd={onTE} onMouseDown={onMD}
@@ -270,7 +270,7 @@ export default function App() {
       </div>
 
       {/* 하단 안내 */}
-      <div style={{ position: "absolute", bottom: 24, fontSize: 11, color: "rgba(0,0,0,0.26)", letterSpacing: "0.04em", zIndex: 10, fontFamily: SERIF }}>
+      <div style={{ position: "absolute", bottom: 50, fontSize: 11, color: "rgba(0,0,0,0.26)", letterSpacing: "0.04em", zIndex: 10, fontFamily: SERIF }}>
         카드를 좌우로 쓸어넘기거나 터치해보세요
       </div>
     </div>
