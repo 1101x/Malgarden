@@ -162,7 +162,7 @@ export default function App() {
       : { transition: "transform 0.38s cubic-bezier(.22,.68,0,1.15)" };
 
   return (
-    <div style={{ width: "100%", height: "100vh", background: "#ece8e0", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", overflow: "hidden", position: "relative", userSelect: "none", fontFamily: SERIF, boxSizing: "border-box", paddingTop: 20, paddingBottom: 20 }}>
+    <div style={{ width: "100%", height: "100vh", background: "#ece8e0", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", overflow: "hidden", position: "relative", userSelect: "none", fontFamily: SERIF, boxSizing: "border-box" }}>
       <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;500;600;700&display=swap');
         @keyframes fadeUp { from{opacity:0;transform:translateY(8px)} to{opacity:1;transform:none} }
@@ -221,7 +221,7 @@ export default function App() {
               {/* 메인 단어 */}
               <div style={{
                 fontFamily: SERIF,
-                fontSize: "clamp(32px,8.5vw,48px)",
+                fontSize: "clamp(30px,8.5vw,40px)",
                 fontWeight: 700,
                 color: cat.accent,
                 letterSpacing: "-0.01em",
